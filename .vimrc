@@ -24,6 +24,13 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'wesleyche/SrcExpl'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'wesleyche/Trinity'
+
+"YouCompleteMe clang-based c-family autocompleteion
+"Visit http://valloric.github.io/YouCompleteMe/ for more info
+"sudo apt-get install build-essential cmake python-dev
+"cd ~/.vim/bundle/YoucompleteMe
+"./install.sh --clang-completer
+Bundle 'Valloric/YouCompleteMe'
 "^^^ end Vundle Bundles
 
 filetype plugin indent on  "required by Vundle
