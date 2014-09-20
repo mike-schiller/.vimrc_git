@@ -8,6 +8,9 @@
 " git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 " open vim and run :BundleInstall
 
+set hlsearch
+set paste
+
 "vvv Vundle Configuration
 set nocompatible
 filetype off
