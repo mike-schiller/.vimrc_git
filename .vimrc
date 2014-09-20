@@ -1,15 +1,4 @@
-" steps to use this .vimrc file:
-
-" git clone https://github.com/
-" cd ~/
-" make sure you don't already have a .vimrc
-" ln -s .vimrc_git/.vimrc
-
-" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-" open vim and run :BundleInstall
-
-set hlsearch
-set paste
+" See README.md for installation instructions
 
 "vvv Vundle Configuration
 set nocompatible
@@ -20,6 +9,9 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 "^^^ Vundle Configuration --end--
+
+set hlsearch
+set paste
 
 "vvv Vundle Bundles
 Bundle 'ervandew/supertab'
