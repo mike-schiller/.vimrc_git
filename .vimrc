@@ -19,7 +19,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'wesleyche/SrcExpl'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'wesleyche/Trinity'
-
+Bundle 'flazz/vim-colorschemes'
 
 "   YouCompleteMe clang-based c-family autocompleteion
 "   Visit http://valloric.github.io/YouCompleteMe/ for more info
@@ -36,7 +36,7 @@ Bundle 'Lokaltog/vim-powerline'
 
 
 filetype plugin indent on  "required by Vundle and pathogen
-colorscheme evening
+colorscheme jellybeans
 
 
 " vvv Easy Pane Navigation
